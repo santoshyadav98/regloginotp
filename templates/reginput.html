@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    <meta charset="UTF-8">
+    <title>Title</title></style>
+</head>
+<body bgcolor="#00ffff">
+<form action="./reg" method="post"><center>
+    <h1> welcome to registration Page of Sky</h1>
+    {% csrf_token %}<table>
+    {{regform}}</table>
+    <input type="submit" value="register"></center>
+
+</form>
+</body>
+</html>
